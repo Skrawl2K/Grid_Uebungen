@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10% 80% 10%;
+    gap: 2px;
+}
+
+
+.header {
+    background-color: blue;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.mainContent {
+    background-color: red;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.sideBar {
+    background-color: green;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.footer {
+    background-color: purple;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+.text{
+    font-size: 5rem;
+    color: #fff;
+}
